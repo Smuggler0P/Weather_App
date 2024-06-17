@@ -99,7 +99,7 @@ search.addEventListener("click", () => {
           infoHumidity.insertAdjacentElement("afterend", elCloneInfoHumidity);
 
           infoWind.insertAdjacentElement("afterend", elCloneInfoWind);
-        }, 100);
+        }, 2200);
 
         const cloneInfoWeather = document.querySelectorAll(
           ".info-weather.active-clone"
@@ -126,7 +126,7 @@ search.addEventListener("click", () => {
             cloneInfoWeatherFirst.remove();
             cloneInfoHumidityFirst.remove();
             cloneInfoWindFirst.remove();
-          }, 100);
+          }, 0);
         }
       }
     });
